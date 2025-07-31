@@ -1,0 +1,21 @@
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/preflight.css" layer(base);
+@import "tailwindcss/utilities.css" layer(utilities);
+
+@layer theme {
+  :root {
+    --brand-primary: #C78F9A;
+    --accent-sage: #7C8B7F;
+    --background-linen: #F5F1EE;
+    --text-graphite: #414742;
+  }
+
+  .dark {
+    --brand-primary: #A86A75;
+    --accent-sage: #6A7B6B;
+    --background-linen: #2E2E2E;
+    --text-graphite: #F3F3F3;
+  }
+}
+
+
