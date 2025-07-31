@@ -21,6 +21,5 @@ declare module 'vue' {
     OdontoHome: typeof import('./src/components/pages/OdontoHome.vue')['default']
     OdontoLogo: typeof import('./src/components/ui/header/OdontoLogo.vue')['default']
     OdontoNavBar: typeof import('./src/components/ui/header/OdontoNavBar.vue')['default']
-    Video: typeof import('./src/components/atoms/Video.vue')['default']
   }
 }
