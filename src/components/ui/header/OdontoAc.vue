@@ -1,10 +1,6 @@
-<script lang="js">
-import { handleAction } from '@/services';
-</script>
-
 <template>
   <v-btn
-    class="hidden md:inline-flex bg-yellow-400 text-blue-900 font-semibold hover:bg-yellow-300 transition-colors duration-300 rounded-lg px-6 py-3 shadow-lg mr-4"
+    class="hidden md:inline-flex bg-accent-sage text-background-linen font-semibold transition-all duration-300 ease-in-out hover:shadow-xl hover:scale-105 rounded-lg px-6 py-3 shadow-lg mr-4"
     elevation="4"
     @click="handleAction"
   >
@@ -23,3 +19,15 @@ import { handleAction } from '@/services';
     Agendar Consulta
   </v-btn>
 </template>
+<script lang="js">
+import { handleAction } from '@/services';
+
+export default {
+
+  setup() {
+    return {
+      handleAction,
+    };
+  },
+};
+</script>

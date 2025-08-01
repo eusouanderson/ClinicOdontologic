@@ -2,14 +2,14 @@
 module.exports = {
   important: true,
 
-  content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
+  content: ['./index.html', './src/**/*.{vue,js}'],
 
   theme: {
     extend: {
       colors: {
         'brand-primary': '#C78F9A',
-        'accent-sage': '#7C8B7F',
-        'background-linen': '#F5F1EE',
+        'accent-sage': '#D4AF37',
+        'background-linen': '#F3E5AB',
         'text-graphite': '#414742',
       },
       spacing: {

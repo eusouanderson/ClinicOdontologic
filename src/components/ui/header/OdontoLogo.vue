@@ -1,15 +1,15 @@
 <template>
   <v-app-bar-title
-    class="flex items-center text-white font-semibold tracking-wide cursor-pointer select-none ml-4 md:ml-8"
+    class="flex items-center text-text-graphite font-semibold tracking-wide cursor-pointer select-none ml-4 md:ml-8"
   >
     <router-link
       to="/"
       class="flex items-center space-x-3 hover:opacity-90 transition-opacity duration-300"
     >
-      <div class="flex items-center justify-center bg-white rounded-full p-2">
+      <div class="flex items-center justify-center bg-white rounded-full p-2 shadow-sm">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="h-8 w-8 text-blue-700"
+          class="h-8 w-8 text-brand-primary"
           viewBox="0 0 24 24"
           fill="none"
           stroke="currentColor"
@@ -23,11 +23,10 @@
           <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
         </svg>
       </div>
+
       <div class="flex flex-col">
-        <span class="font-bold text-xl md:text-2xl">OdontoClinic</span>
-        <span class="text-xs font-light text-blue-100"
-          >Excelência em saúde bucal</span
-        >
+        <span class="font-bold text-xl md:text-2xl text-background-linen/80">OdontoClinic</span>
+        <span class="text-xs font-light text-background-linen/50">Excelência em saúde bucal</span>
       </div>
     </router-link>
   </v-app-bar-title>
