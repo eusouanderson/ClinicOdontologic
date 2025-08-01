@@ -1,6 +1,6 @@
 /// <reference types="vitest/config" />
 // Plugins
-import tailwindcss from '@tailwindcss/vite';
+
 import Vue from '@vitejs/plugin-vue';
 import Fonts from 'unplugin-fonts/vite';
 import Components from 'unplugin-vue-components/vite';
@@ -27,7 +27,7 @@ export default defineConfig({
     }),
     Vuetify(),
     Components(),
-    tailwindcss(),
+
     Fonts({
       fontsource: {
         families: [

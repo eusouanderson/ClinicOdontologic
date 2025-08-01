@@ -7,15 +7,23 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'brand-primary': 'var(--brand-primary)',
-        'accent-sage': 'var(--accent-sage)',
-        'background-linen': 'var(--background-linen)',
-        'text-graphite': 'var(--text-graphite)',
+        'brand-primary': '#C78F9A',
+        'accent-sage': '#7C8B7F',
+        'background-linen': '#F5F1EE',
+        'text-graphite': '#414742',
+      },
+      spacing: {
+        4.5: '1.125rem',
+        5.5: '1.375rem',
+        7.5: '1.875rem',
+      },
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'],
+        serif: ['Merriweather', 'serif'],
       },
     },
   },
 
   darkMode: 'class',
-
   plugins: [],
 };

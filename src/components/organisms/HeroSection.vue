@@ -1,10 +1,8 @@
 <template>
-  <section
-    class="relative bg-amber-50 flex flex-col justify-center items-center min-h-screen overflow-hidden"
-  >
+  <section class="relative flex flex-col justify-center items-center min-h-screen overflow-hidden">
     <BackgroundVideo :video-src="videoSrc" />
 
-    <div class="absolute w-full h-full top-0 left-0 bg-text-graphite/70 z-10"></div>
+    <div class="absolute w-full h-full top-0 left-0 z-10"></div>
 
     <div class="relative z-20 p-6">
       <v-container fluid>

@@ -1,13 +1,10 @@
 <template>
-  <footer class="bg-text-graphite text-background-linen/90 pt-12 pb-6">
+  <footer class="bg-brand-primary text-background-linen/90 pt-12 pb-6">
     <div class="container mx-auto px-4 md:px-8">
       <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
         <!-- Coluna 1: Sobre a clínica -->
         <div class="md:col-span-2">
           <div class="flex items-center mb-4">
-            <!-- 
-              O ícone agora usa a paleta nova: fundo branco linho e a cor primária da marca (rosa). 
-            -->
             <div class="flex items-center justify-center bg-background-linen rounded-full p-2 mr-3">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -25,18 +22,13 @@
                 <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
               </svg>
             </div>
-            <!-- Título com o texto mais claro da paleta -->
             <h3 class="text-xl font-bold text-background-linen">OdontoClinic</h3>
           </div>
-          <!-- O texto do parágrafo tem uma leve opacidade para hierarquia visual. -->
           <p class="text-background-linen/90 mb-4">
             Nossa clínica odontológica oferece tratamentos de excelência com tecnologia de ponta e
             profissionais altamente qualificados, garantindo o melhor cuidado para sua saúde bucal.
           </p>
           <div class="flex space-x-4">
-            <!-- 
-              Ícones sociais com texto suave e o hover usando a cor primária da marca. 
-            -->
             <a
               href="#"
               class="text-background-linen/70 hover:text-brand-primary transition-colors duration-300"
@@ -87,7 +79,6 @@
 
         <!-- Coluna 2: Links rápidos -->
         <div>
-          <!-- Título da seção com a cor de destaque (verde sálvia) para a borda -->
           <h3
             class="text-lg font-semibold mb-4 border-b border-accent-sage/50 pb-2 text-background-linen"
           >
@@ -113,44 +104,118 @@
                     d="M9 5l7 7-7 7"
                   />
                 </svg>
-                Início</a
-              >
-            </li>
-            <!-- Repita a mesma classe para os outros links -->
-            <li>
-              <a
-                href="#"
-                class="text-background-linen/90 hover:text-brand-primary transition-colors duration-300 flex items-center"
-                >...Serviços</a
-              >
+                Início
+              </a>
             </li>
             <li>
               <a
                 href="#"
                 class="text-background-linen/90 hover:text-brand-primary transition-colors duration-300 flex items-center"
-                >...Equipe</a
               >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-4 w-4 mr-2"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5l7 7-7 7"
+                  />
+                </svg>
+                Serviços
+              </a>
             </li>
             <li>
               <a
                 href="#"
                 class="text-background-linen/90 hover:text-brand-primary transition-colors duration-300 flex items-center"
-                >...Sobre Nós</a
               >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-4 w-4 mr-2"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5l7 7-7 7"
+                  />
+                </svg>
+                Equipe
+              </a>
             </li>
             <li>
               <a
                 href="#"
                 class="text-background-linen/90 hover:text-brand-primary transition-colors duration-300 flex items-center"
-                >...Blog</a
               >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-4 w-4 mr-2"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5l7 7-7 7"
+                  />
+                </svg>
+                Sobre Nós
+              </a>
             </li>
             <li>
               <a
                 href="#"
                 class="text-background-linen/90 hover:text-brand-primary transition-colors duration-300 flex items-center"
-                >...Contato</a
               >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-4 w-4 mr-2"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5l7 7-7 7"
+                  />
+                </svg>
+                Blog
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="text-background-linen/90 hover:text-brand-primary transition-colors duration-300 flex items-center"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-4 w-4 mr-2"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5l7 7-7 7"
+                  />
+                </svg>
+                Contato
+              </a>
             </li>
           </ul>
         </div>
@@ -176,7 +241,6 @@
               <span>Fechado</span>
             </li>
           </ul>
-          <!-- Box de destaque com a cor de acento e opacidade -->
           <div class="mt-6 bg-accent-sage/20 rounded-lg p-3">
             <p class="text-sm text-background-linen/80">* Horários especiais para emergências</p>
           </div>
@@ -191,7 +255,6 @@
           </h3>
           <ul class="space-y-3">
             <li class="flex items-start">
-              <!-- Ícones de contato com a cor primária da marca para destaque -->
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-5 w-5 text-brand-primary mr-3 mt-1"
@@ -233,7 +296,40 @@
               </svg>
               <span class="text-background-linen/90">(00) 1234-5678</span>
             </li>
-            <!-- ... outros contatos ... -->
+            <li class="flex items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5 text-brand-primary mr-3"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                />
+              </svg>
+              <span class="text-background-linen/90">contato@odontoclinic.com</span>
+            </li>
+            <li class="flex items-center mt-4">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5 text-brand-primary mr-3"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+              <span class="text-background-linen/90">Atendimento 24h para emergências</span>
+            </li>
           </ul>
         </div>
       </div>
