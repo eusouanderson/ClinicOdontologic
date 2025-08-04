@@ -5,7 +5,7 @@
     muted
     playsinline
     :src="videoSrc"
-    class="absolute w-full h-full object-cover top-0 left-0 z-0"
+    class="absolute w-full h-full object-cover left-0 z-0"
   ></video>
 </template>
 
