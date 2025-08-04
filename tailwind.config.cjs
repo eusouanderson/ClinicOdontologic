@@ -8,8 +8,8 @@ module.exports = {
     extend: {
       colors: {
         'brand-primary': '#C78F9A',
-        'accent-sage': '#D4AF37',
-        'background-linen': '#F3E5AB',
+        'accent-sage': '#100e07ff',
+        'background-linen': '#2E2E2E',
         'text-graphite': '#414742',
       },
       spacing: {
@@ -20,6 +20,11 @@ module.exports = {
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
         serif: ['Merriweather', 'serif'],
+      },
+      backgroundImage: {
+        // Gradiente metálico rosé
+        'brand-gradient':
+          'linear-gradient(90deg, #B76E79 0%, #D8A7A7 25%, #EFD3D7 50%, #D8A7A7 75%, #B76E79 100%)',
       },
     },
   },

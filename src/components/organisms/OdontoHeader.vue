@@ -1,5 +1,5 @@
 <template>
-  <v-app-bar app flat class="bg-brand-primary border-b border-brand-primary/20" height="80">
+  <v-app-bar app flat class="bg-brand-gradient border-b border-brand-primary/20" height="80">
     <OdontoLogo />
     <v-spacer />
 

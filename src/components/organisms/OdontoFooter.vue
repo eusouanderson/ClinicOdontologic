@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-brand-primary text-background-linen/90 pt-12 pb-6">
+  <footer class="bg-brand-gradient text-background-linen/90 pt-12 pb-6">
     <div class="container mx-auto px-4 md:px-8">
       <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
         <!-- Coluna 1: Sobre a clínica -->
