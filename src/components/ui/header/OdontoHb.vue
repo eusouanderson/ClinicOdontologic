@@ -34,13 +34,13 @@
     >
       <template #activator="{ on, attrs }"></template>
 
-      <v-card class="bg-brand-gradient text-text-graphite flex flex-col h-full">
+      <v-card class="bg-brand-gradient bg-background-linen flex flex-col h-full">
         <!-- Header com botão fechar -->
-        <v-toolbar dense flat class="justify-end p-4 bg-brand-primary/10">
+        <v-toolbar dense flat class="justify-end p-4 bg-brand-primary">
           <v-btn
             icon
             @click="toggleDrawer"
-            class="text-brand-primary hover:bg-brand-primary/20 transition-colors duration-300"
+            class="hover:bg-brand-primary/20 transition-colors duration-300"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -133,8 +133,8 @@
                 d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
               />
             </svg>
-            <span class="group-hover:text-brand-primary transition-colors duration-300"
-              >(XX) XXXX-XXXX</span
+            <span class="text-ellipsis decoration-text-graphite transition-colors duration-300"
+              >(11) 99636-8999</span
             >
           </div>
 

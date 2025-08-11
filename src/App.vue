@@ -3,7 +3,7 @@
     <OdontoHeader />
 
     <v-main>
-      <OdontoHome />
+      <router-view />
     </v-main>
 
     <OdontoFooter />
