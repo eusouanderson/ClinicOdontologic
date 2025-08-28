@@ -219,11 +219,11 @@
           <ul class="space-y-2">
             <li class="flex justify-between text-background-linen/90">
               <span>Segunda - Sexta</span>
-              <span>08:00 - 19:00</span>
+              <span>10:30 - 18:30</span>
             </li>
             <li class="flex justify-between text-background-linen/90">
               <span>Sábado</span>
-              <span>09:00 - 14:00</span>
+              <span>10:30 - 13:30</span>
             </li>
             <li class="flex justify-between text-background-linen/90">
               <span>Domingo</span>
@@ -231,7 +231,7 @@
             </li>
           </ul>
           <div class="mt-6 bg-accent-sage/20 rounded-lg p-3">
-            <p class="text-sm text-background-linen/80">* Horários especiais para emergências</p>
+            <p class="text-sm text-background-linen/80">* Atendimento com horário marcado</p>
           </div>
         </div>
 
@@ -283,7 +283,7 @@
                   d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                 />
               </svg>
-              <span class="text-background-linen/90">(00) 1234-5678</span>
+              <span class="text-background-linen/90">(11) 2243-5822</span>
             </li>
             <li class="flex items-center">
               <svg
@@ -317,7 +317,7 @@
                   d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
                 />
               </svg>
-              <span class="text-background-linen/90">Atendimento 24h para emergências</span>
+              <span class="text-background-linen/90">Atendimento com horário marcado</span>
             </li>
           </ul>
         </div>

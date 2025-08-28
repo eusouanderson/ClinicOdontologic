@@ -36,14 +36,19 @@
         <div class="p-6">
           <h3 class="text-2xl font-semibold mb-2">Dra. Fabiana</h3>
           <p class="text-brand-primary text-opacity-80 mb-4">Dentista-Chefe</p>
+          <p class="text-zinc-700 pl-2">Cirurgia dentista clinico geral desde 2016,</p>
+          <p class="text-zinc-700">pela universidade 9 de julho (uninove)</p>
+          <p class="text-zinc-700 pl-2">Especialista pos graduada em ortodontia e</p>
+
           <p class="text-zinc-700">
-            Especialista em Odontologia Estética e Implantodontia com mais de 15 anos de
-            experiência.
+            ortopedia funcional dos maxilares, pela faculdade de odontologia da APCD-FAOA.
           </p>
+          <p class="text-zinc-700 pl-2">Certificada em odotonlogia estética:</p>
+          <p class="text-zinc-700">lentes em resina, toxina botulinica e acido hialuronico</p>
         </div>
       </div>
 
-      <!-- Membro 2 -->
+      <!-- Membro 2
       <div
         class="bg-white rounded-xl shadow-md overflow-hidden"
         data-aos="fade-up"
@@ -72,9 +77,9 @@
             Especializado em Ortodontia Preventiva e Tratamentos com Alinhadores Invisíveis.
           </p>
         </div>
-      </div>
+      </div> -->
 
-      <!-- Membro 3 -->
+      <!-- Membro 3
       <div
         class="bg-white rounded-xl shadow-md overflow-hidden"
         data-aos="fade-up"
@@ -103,7 +108,7 @@
             Especialista em Saúde Gengival e Tratamentos Periodontais Minimamente Invasivos.
           </p>
         </div>
-      </div>
+      </div> -->
     </div>
 
     <div

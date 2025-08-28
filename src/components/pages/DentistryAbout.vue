@@ -19,9 +19,9 @@
       >
         A Dra. Fabiana é uma dentista dedicada e altamente qualificada, com ampla experiência em
         odontologia clínica e estética. Formada pela
-        <strong class="text-brand-accent">Universidade [Nome da Universidade]</strong>, ela
-        complementou sua formação com diversas especializações, incluindo implantes dentários,
-        ortodontia avançada e reabilitação oral.
+        <strong class="text-brand-accent">Universidade Nove de Julho (UNINOVE)</strong>, ela
+        complementou sua formação se especializando em ortodontia, ortopedia dos maxilares e
+        estética.
       </p>
 
       <p

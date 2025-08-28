@@ -17,10 +17,9 @@
         data-aos-duration="800"
         data-aos-delay="100"
       >
-        <h2 class="text-3xl font-semibold mb-4">Ortodontia Avançada</h2>
+        <h2 class="text-3xl font-semibold mb-4">Ortodontia e Ortopedia</h2>
         <p class="text-lg leading-relaxed">
-          Tratamentos ortodônticos com aparelhos fixos, alinhadores invisíveis e técnicas
-          minimamente invasivas para alinhar seu sorriso com conforto e eficiência.
+          Tratamentos ortodônticos e ortopedicos com aparelhos fixos e moveis .
         </p>
       </article>
 
@@ -30,10 +29,10 @@
         data-aos-duration="800"
         data-aos-delay="200"
       >
-        <h2 class="text-3xl font-semibold mb-4">Implantes Dentários</h2>
+        <h2 class="text-3xl font-semibold mb-4">Estética</h2>
         <p class="text-lg leading-relaxed">
-          Colocação de implantes com tecnologia de última geração, garantindo recuperação rápida,
-          funcionalidade e estética natural para seus dentes.
+          Colocação de facetas/lentes, piercing dental, clareamento dental, restaurações estéticas,
+          toxina botulinica (botox), preenchimento com acido hialuronico.
         </p>
       </article>
 
@@ -43,11 +42,19 @@
         data-aos-duration="800"
         data-aos-delay="300"
       >
-        <h2 class="text-3xl font-semibold mb-4">Odontologia Estética</h2>
+        <h2 class="text-3xl font-semibold mb-4">Reabilitaçao Oral</h2>
         <p class="text-lg leading-relaxed">
-          Clareamento dental, facetas de porcelana e restaurações estéticas para um sorriso bonito,
-          saudável e alinhado às suas expectativas.
+          Reabilitaçao oral proteses parciais (ponte) e totais (dentadura) .
         </p>
+      </article>
+      <article
+        class="bg-brand-primary rounded-xl shadow-lg p-8 text-zinc-900 transition-all duration-500 hover:shadow-xl hover:-translate-y-2"
+        data-aos="fade-up"
+        data-aos-duration="800"
+        data-aos-delay="300"
+      >
+        <h2 class="text-3xl font-semibold mb-4">Cirurgia Oral Menor</h2>
+        <p class="text-lg leading-relaxed">Extraçoes dentarias e gengivoplastia.</p>
       </article>
 
       <article
